@@ -12,10 +12,10 @@
 }
 .success-payment .card
 {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 80px;
     border-radius: 0;
     
 }
@@ -54,13 +54,77 @@
 }
 
 .success-payment .card .content{
-    margin-top: 5px;
-    margin: auto;
+
+    /* margin: auto;c */
     
 }
 .success-payment .card .content span{
-  width: 10px;
-  height: 100px;
-  border: 1px solid var(--main-color);
-  border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    /* padding: 20px; */
+    border: 1.5px solid var(--main-color);
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -10px;
+}
+.success-payment .card .content span i{
+    font-size: 50px;
+    color: var(--main-color);
+    font-weight: 800;
+}
+.success-payment .card .content p{
+    font-size: 30px;
+    text-align: center;
+    color: var(--dark-color);
+}
+.success-payment .card .underline{
+    width: 30%;
+    height: 2px;
+    background-color: #c7c3c3;
+    margin: auto;
+    position: relative;
+    margin-top: -10px;
+    
+}
+.success-payment .card .thanks{
+    font-size: 25px;
+    color: var(--dark-color);
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+.success-payment .card .date{
+    font-size: 10px;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+.success-payment .card button{
+    width: 30%;
+    border: 0;
+    outline: none;
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.success-payment .card .footer
+{
+    width: 100%;
+    bottom: 0;
+    height: 10px;
+    background-color: var(--main-color);
+}
+@media (max-width:800px){
+   
+    .success-payment .card {
+         width: 350px;
+        min-height: 300px;
+        margin: auto;
+    }
 }

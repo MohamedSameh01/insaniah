@@ -350,6 +350,11 @@ footer .footer-bottom div a{
         display: block;
     }
     
-    
+    footer .footer .downloads .card{
+      /* border: 0; */
+    }
+       footer .footer>div{
+        width: calc(100%/1.5);
+       }
 }
 /* end footer */
