@@ -37,7 +37,7 @@
   width: 53px;
   height: 53px;
   border-radius: 10%;
-  background-color: #f0f0f0;
+  background-color: #cccbcb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,7 +48,8 @@
   height: 45px;
 }
 .services .content .goods .serv p {
-  color: grey;
+  color: rgb(87, 87, 87);
+  font-weight: 600;
   letter-spacing: 1px;
   font-size: 15px;
 }
