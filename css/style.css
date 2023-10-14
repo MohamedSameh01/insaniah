@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 :root {
   --main-color: #e3a051;
@@ -186,7 +187,7 @@ header {
 /* end nav */
 /* start header2 */
 .header2 {
-  width: 100%;
+  /* width: 100%; */
   background-color: var(--main-color);
   height: 50px;
 }
@@ -301,11 +302,17 @@ footer .footer .downloads .card{
     cursor: pointer;
 
 }
-/* footer .footer .downloads img{
-    width: 200px;
+footer .footer .downloads img{
+    width: 150px;
     display: block;
 
-} */
+}
+footer .footer .payment {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
 footer .footer .payment .payment-images img{
   width: 40px;
 }
