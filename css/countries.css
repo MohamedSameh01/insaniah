@@ -170,9 +170,15 @@
   font-weight: 600;
 }
 .services .content .media .cards .hero p {
+  cursor: pointer;
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 18px;
+
 }
+.services .content .media .cards .hero p>i{
+  margin-left: 10px;
+}
+
 .media .showMore {
   width: 50%;
   display: block;

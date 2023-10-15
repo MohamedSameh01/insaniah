@@ -112,9 +112,16 @@ input[type="range"]::-webkit-slider-thumb:active {
 }
 .success-payment .content{
     margin-top: 40px;
+    position: relative;
     
-
 }
+.success-payment .path{
+
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+
 .cards-content{
     
     display: grid;
