@@ -1,0 +1,127 @@
+.analysis{
+    width: 100%;
+    min-height: 100vh;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: grey; */
+}
+
+.analysis .leftSide,
+.analysis .rightSide{
+    width: 35%;
+    height: 600px;
+    /* background-color: rgb(255, 16, 16); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.analysis .leftSide p,
+.analysis .rightSide p{
+    text-align: center;
+}
+.analysis .dash{
+    display: block;
+    width: 20px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: rgb(139, 143, 139);
+    margin:10px auto;
+    /* margin-top: 10px; */
+}
+.analysis div .left-left{
+    width: 65%;
+    height: 80%;
+    border-radius: 10px 10px 0 0  ;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+.analysis div .left-left div{
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    width: 95%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 5px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.analysis div .left-left .colored{
+    background-color: #FFF0DE;
+    color: var(--main-color);
+
+}
+.analysis div .left-left button{
+    border: 0;
+    display: block;
+    outline: none;
+    border-radius: 15px;
+    margin: auto;
+    width: 95%;
+    background-color: var(--main-color);
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.analysis div .left-left .active{
+    background-color: #583F20;
+    color: white;
+}
+.analysis div .right-right{
+    width: 30%;
+    /* background-color: white; */
+    height: 80%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}   
+
+
+.analysis .right-right .sideCards .sideCard {
+  width: 90px;
+  height: 190px;
+  border-radius: 25px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+    margin: 15px 0;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: -7px 8px 11px 13px rgba(119, 118, 118, 0.1);
+}
+.analysis .right-right .sideCards .sideCard span {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #fdecd8;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.analysis .right-right .sideCards .sideCard span svg{
+    width: 20px;
+    height: 20px;
+}
+.analysis .right-right .sideCards .sideCard p {
+  rotate: -90deg;
+  color: var(--main-color);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 55px;
+
+}
+.analysis .right-right .sideCards .rightSide-active{
+    background-color: var(--main-color);
+}
+.analysis .right-right .sideCards .rightSide-active p{
+    color: white;
+
+}

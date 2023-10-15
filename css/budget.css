@@ -1,0 +1,162 @@
+.services {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: #d8d8d8;
+  
+}
+/* .services .content {
+} */
+.services .content {
+  /* position: relative; */
+}
+.services .content .goods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  gap: 30px;
+}
+
+.services .content .goods .serv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 119px;
+  height: 122px;
+  border-radius: 10%;
+  background-color: white;
+}
+.services .content .goods .serv span {
+  width: 53px;
+  height: 53px;
+  border-radius: 10%;
+  background-color: #fcf9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.services .content .goods .serv span img {
+  width: 45px;
+  height: 45px;
+}
+.services .content .goods .serv p {
+  color: rgb(87, 87, 87);
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+.services .content .goods .active {
+  background-color: var(--main-color);
+}
+.services .content .goods .active span{
+  background-color: white;
+}
+.services .content .goods .active p {
+  color: white;
+}
+@media (max-width: 676px) {
+  .services .content .goods .serv span {
+    display: none;
+  }
+  .services .content .goods .serv {
+    height: 80px;
+  }
+}
+
+/* side cards */
+.services .sideCards {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  gap: 40px;
+}
+.services .sideCards .sideCard {
+  width: 100px;
+  height: 273px;
+  border-radius: 25px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: -7px 8px 11px 13px rgba(119, 118, 118, 0.1);
+}
+.services .sideCards .sideCard span {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: #fdecd8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services .sideCards .sideCard p {
+  rotate: -90deg;
+  color: var(--main-color);
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 55px;
+}
+.services .content .budget
+{
+  width: 600px;
+  padding: 30px;
+  margin: auto;
+  height: 300px;
+    
+}
+.services .content .budget .topSide{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: -20px;
+}
+.services .content .budget p{
+  font-size: 25px;
+}
+.services .content .budget .topSide div{
+  width: 48%;
+  height: 50px;
+  /* gap: 10px; */
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  box-shadow: -5px -1px 15px 2px rgb(160, 160, 160);
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.services .content .budget .otherAmount{
+  margin-top: 50px;
+}
+.services .content .budget .topSide .active{
+  background-color: var(--main-color);
+  color: white;
+}
+.services .content .budget .downSide div{
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  box-shadow: -5px -1px 15px 2px rgb(160, 160, 160);
+  margin: auto;
+  background-color: var(--main-color);
+  color: white;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

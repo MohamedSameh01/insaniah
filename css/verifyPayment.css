@@ -146,6 +146,8 @@
     bottom: 0;
     height: 10px;
     background-color: var(--main-color);
+    position: absolute;
+    
 }
 footer{
     margin-top: 50px;

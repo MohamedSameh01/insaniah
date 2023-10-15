@@ -72,7 +72,7 @@
   width: 53px;
   height: 53px;
   border-radius: 10%;
-  background-color: #cccbcb;
+    background-color: #fcf9f9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,7 +135,7 @@ box-shadow: 0 0 2px rgba(36, 35, 35,.3);
 }
 
 .services .content .media .cards .hero .card span {
-margin-top: -50%;
+  margin-top: -50%;
   /* position: absolute; */
   display: block;
   width: 100px;
@@ -145,6 +145,11 @@ margin-top: -50%;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+.services .content .media .cards .hero .card span img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
 }
 .services .content .media .cards .hero .card p{
     font-size: 18px;
@@ -197,6 +202,7 @@ margin-top: -50%;
   height: 60px;
   border-radius: 15px;
   background-color: #fdecd8;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -208,6 +214,10 @@ margin-top: -50%;
   font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 55px;
+
+}
+footer{
+  /* margin-top: 30px; */
 }
 @media (max-width:1270px) {
   .services .paths{

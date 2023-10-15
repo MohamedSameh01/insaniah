@@ -37,7 +37,7 @@
   width: 53px;
   height: 53px;
   border-radius: 10%;
-  background-color: #cccbcb;
+  background-color: #fcf9f9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,6 +55,9 @@
 }
 .services .content .goods .active {
   background-color: var(--main-color);
+}
+.services .content .goods .active span{
+  background-color: white;
 }
 .services .content .goods .active p {
   color: white;
