@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/all.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="../css/successPayment.css"> -->
+    <link rel="stylesheet" href="./css/verifyPayment.css">
     <title>Insaniah</title>
 </head>
 
@@ -15,7 +16,7 @@
     <header>
         <div class="xl-container header-content">
             <div class="login">
-                <a href="index.html">login</a>
+                <a href="index">login</a>
                 <i class="fa-solid fa-arrow-right-to-bracket"></i>
             </div>
             <div class="languages"><img src="../assets/icons/360_F_112467534_9jaCZZRAEMsIcICc5Az0NSX7RenIAKw9.jpg"
@@ -26,15 +27,16 @@
         <div class="navbar sm-container">
             <img src="../assets/icons/Image 3.png" alt="">
 
+
             <div class="search-container">
                 <div class="glass-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
                 <input class="search-input" type="text" placeholder="Search">
                 <div class="dropdown">
                     <button class="dropdown-button">Departments</button>
                     <div class="dropdown-content">
-                        <a href="#">Option 1</a>
-                        <a href="#">Option 2</a>
-                        <a href="#">Option 3</a>
+                         <a href="#">Option 1</a>
+                         <a href="#">Option 2</a>
+                         <a href="#">Option 3</a>
                     </div>
                 </div>
                 <button class="search-button" type="submit">Search</button>
@@ -60,7 +62,7 @@
     <!-- header2 -->
     <div class="header2 flex">
         <div class="sm-container mainDropDowns flex">
-            <div class="h2-dropdown list1"><a href="countries.html">available countries</a> <i
+            <div class="h2-dropdown list1"><a href="countries.html">available countries </a><i
                     class="fa-solid fa-chevron-down"></i>
                 <div id="list1" class="dropdown-content ">
                     <a href="signUp.html">sign up</a>
@@ -77,7 +79,7 @@
                     <a href="cart.html">cart</a>
                 </div>
             </div>
-            <div class="h2-dropdown list2">projects <i class="fa-solid fa-chevron-down"></i>
+            <div class="h2-dropdown list2"><a href="projects.html"></a> <i class="fa-solid fa-chevron-down"></i>
                 <div id="list2" class="dropdown-content ">
                     <a href="#">Option 1</a>
                     <a href="#">Option 2</a>
@@ -114,35 +116,80 @@
             </div>
         </div>
     </div>
-    <!-- strat login Page -->
-    <div class="login-content">
-        <div class="login-form">
-            <h3>Welcome</h3>
-            <p>Lets Get Started Now</p>
-            <span>or create an account if not registered yet</span>
-            <form action="submit">
-                <div class="form-group">
-                    <label for="userName">Email</label>
-                    <input type="text" id="firstName" placeholder="">
+    <!-- start success Payement -->
+    <div class="verify-payment">
+        <div class="content sm-container">
+            <p>Home > Projects</p>
+            <div class="card">
+
+                <div class="header">
+                    <p>Zakat Bank</p>
+                    <span>
+                        <i class="fa-solid fa-share-nodes"></i>
+                        <p>Share</p>
+
+                    </span>
                 </div>
-                <div class="form-group ">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" placeholder="">
+                <h3>welcome</h3>
+                <p class="pay">Payment Methods</p>
+                <div class="emptyBox">
+                    <div></div>
+                    <div></div>
                 </div>
-            </form>
-            <a class="forgetPassword" href="signUp.html">forget password</a>
-            <div class="buttons">
-                <button type="button" class="Log-in"><a href="#">Log in</a></button>
-                <button type="button" class=" sign-up"><a href="signUp.html">Sign Up</a></button>
+                <p class="accept">WE ACCEPT</p>
+
+                <div class="form">
+                    <img class="payCards" src="../assets/icons/Group 290.png" alt="">
+                    <form action="submit">
+                        <div class="form-group ">
+                            <label for="firstName">Name of Card</label>
+                            <input type="text" id="firstName" placeholder="Your Name">
+                        </div>
+                        <div class="form-group ">
+                            <label for="lastName">Card Number</label>
+                            <input type="text" id="lastName" placeholder="xxxx xxxx xxxx xxxx">
+                        </div>
+                        <div class="personal">
+                            <div class="form-group expire">
+                                <label for="email">Expire Date</label>
+                                <input type="text" id="email" placeholder="MM / YY">
+                            </div>
+                            <div class="form-group security expire">
+                                <label for="email">Security Code</label>
+                                <input type="password" id="email" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <label for="lastName">ZIP/Postal Code</label>
+                            <input type="text" id="lastName" placeholder="xxxx xxxx xxxx xxxx">
+                        </div>
+                        <button class="pay" type="button"> Pay Now</button>
+                    </form>
+                </div>
+                <div class="footer"></div>
+
             </div>
-            <div class="links">
-                <a href="#">Terms</a>
-                <a href="#">Plans</a>
-                <a href="#">Contact Us</a>
+
+        </div>
+        <div class="sideCards">
+            <div class="sideCard">
+                <span>
+                    <img src="../assets/icons/Shape 20.png" alt="">
+
+                </span>
+                <p>FastDonate</p>
+            </div>
+            <div class="sideCard">
+                <span>
+                    <img src="../assets/icons/Shape 19.png" alt="">
+
+
+                </span>
+                <p>Emergancy</p>
             </div>
         </div>
     </div>
-    <!-- end login Page -->
+    <!--  end Payement -->
     <footer>
 
         <div class="sm-container  footer">
@@ -182,8 +229,7 @@
             <div class="payment">
                 <p>PAYMENT METHOD</p>
                 <div class="payment-images">
-                    <a href="verifyPayment.html"><img src="../assets/icons/paypal-new-20232814.logowik.com.webp"
-                            alt=""></a>
+                    <a href="verifyPayment.html"><img src="../assets/icons/paypal-new-20232814.logowik.com.webp" alt=""></a>
                     <a href="verifyPayment.html"><img src="../assets/icons/visa.svg" alt=""></a>
                     <a href="verifyPayment.html"><img src="../assets/icons/MasterCard_Logo.svg.webp" alt=""></a>
                     <a href="verifyPayment.html"><img src="../assets/icons/American_Express-Logo.wine.png" alt=""></a>
