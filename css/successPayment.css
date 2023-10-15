@@ -1,9 +1,25 @@
 .success-payment{
     height: 100vh;
     width: 100%;   
+    background-color: #d7d7d7;
+    background-image: url(../assets/icons/Group\ 2609.png);
+    position: relative;
+    background-position: center;
+    background-repeat: repeat;
+}
+.success-payment::after{
+      content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-color);
+  opacity: 0.5;
+  z-index: -1;
 }
 .success-payment .content{
-    margin-top: 40px;
+    padding-top: 40px;
     
 
 }

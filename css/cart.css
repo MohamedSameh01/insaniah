@@ -1,14 +1,29 @@
 .profile {
   width: 100%;
   min-height: 110vh;
-  background-color: rgb(116, 105, 105);
+  background-color: #d7d7d7;
+  background-image: url(../assets/icons/Group\ 2609.png);
   position: relative;
+  background-position: center;
+  background-repeat: repeat;
 }
+.profile::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-color);
+  opacity: 0.5;
+  z-index: -1;
+}
+
 .profile-content {
   padding: 40px;
-  height: 700px;
+  min-height: 700px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
   /* align-items: center; */
 }
@@ -16,7 +31,7 @@
 .profile-content .products {
   width: 60%;
 }
-.profile-content .products .wishes {
+.profile-content .wishes {
   width: 95%;
   padding: 10px 30px;
   color: white;
@@ -45,6 +60,28 @@
   justify-content: space-around;
   align-items: center;
   font-size: 12px;
+}
+.profile-content .products .product .counter {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  bottom: 65px;
+  right: 1px;
+}
+.profile-content .products .product .counter span {
+  cursor: pointer;
+  background-color: rgb(172, 168, 168);
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.profile-content .products .product .counter .active {
+  background-color: rgb(131, 130, 130);
 }
 .profile-content .products .product .header {
   width: 100%;
@@ -76,6 +113,8 @@
 .profile-content .products .product .content .product-img {
   width: 40%;
   padding: 5px;
+  display: block;
+  z-index: 5;
 }
 .profile-content .products .product .content .product-details {
   width: 55%;
@@ -176,7 +215,7 @@
   font-weight: 600;
   /* display: block; */
 }
-.profile-content .sidebar .total-conten .pursh{
+#purshase {
   display: block;
   width: 95%;
   margin: auto;
@@ -189,6 +228,7 @@
   padding: 5px;
   /* border-radius: 5px; */
 }
+
 /*  */
 /*  */
 
@@ -232,3 +272,50 @@
   letter-spacing: 2px;
   margin-bottom: 55px;
 }
+
+@media (max-width: 1504px) {
+  .profile .profile-content .products .product .content {
+    display: block;
+  }
+  .profile .profile-content .products .product .remove {
+    top: 260px;
+    height: 20px;
+  }
+  .profile .profile-content .products div {
+    width: 60%;
+  }
+}
+/* @media (max-width:1116px) {
+  .profile .profile-content .products{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .profile .profile-content {
+    display: block;
+  }
+  .profile .profile-content {
+} */
+/* @media (max-width:1111px){
+  .profile .profile-content{
+    display: block;
+  }
+  .profile .profile-content .products{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+  }
+  .profile .profile-content .products .product{
+    width: ;
+  }
+  .profile-content  .wishes {
+    width: 40%;
+  }
+} */
+
+/* @media (max-width: 1150px) {
+  .profile-content .products {
+    width: 100%;
+  }
+} */
