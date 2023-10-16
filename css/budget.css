@@ -1,13 +1,14 @@
 .services {
   width: 100%;
-  min-height: 100vh;
+  min-height: 85vh;
   background-color: #d7d7d7;
   background-image: url(../assets/icons/Group\ 2609.png);
   position: relative;
   background-position: center;
   background-repeat: repeat;
+  padding-bottom: 30px;
 }
-.services::after{
+.services::after {
   content: "";
   position: absolute;
   top: 0;
@@ -25,6 +26,7 @@
   align-items: center;
   padding-top: 40px;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .services .content .goods .serv {
@@ -65,14 +67,6 @@
 }
 .services .content .goods .active p {
   color: white;
-}
-@media (max-width: 676px) {
-  .services .content .goods .serv span {
-    display: none;
-  }
-  .services .content .goods .serv {
-    height: 80px;
-  }
 }
 
 /* side cards */
@@ -168,11 +162,74 @@
   cursor: pointer;
   border: 0;
 }
-@media (max-width:896px){
-  .services .sideCards{
+
+
+@media (max-width: 896px) {
+  .services .sideCards {
     display: none;
   }
+  .services .content .goods .serv {
+    width: 70px;
+    height: 80px;
+  }
+  .services .content .goods .serv span {
+    width: 43px;
+    height: 43px;
+  }
+  .services .content .goods .serv span img {
+    width: 33px;
+    height: 33px;
+  }
+  .services .content .goods .serv p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px;
+  }
 }
+
+@media (max-width: 700px) {
+  .services .content .budget .topSide {
+    flex-direction: column;
+  }
+  .services .content .budget .topSide div {
+    width: 95%;
+  }
+
+}
+@media (max-width: 487px) {
+  .services .content .goods .serv span {
+    display: none;
+  }
+  .services .content .budget .downSide button {
+    font-size: 12px;
+  }
+}
+
+ @media (max-width: 676px) {
+  .services .content .goods .serv span {
+    display: none;
+  }
+  .services .content .goods .serv {
+    height: 80px;
+  }
+
+
+
+
+
+
+
+
+/* @media (max-width: 575px) {
+  .services .content .goods .serv span {
+    display: none;
+  }
+  .services .content .goods .serv {
+    height: 80px;
+  }
+}
+
+
 @media (max-width:816px){
   .services .content .budget {
     width: 500px;
@@ -214,4 +271,4 @@
    .services .content .budget .downSide button {
     font-size: 8px;
    }
-}
+} */

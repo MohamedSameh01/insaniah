@@ -1,14 +1,15 @@
 .services {
   width: 100%;
-  min-height: 125vh;
+  /* min-height: 135vh; */
   position: relative;
-    background-color: #d7d7d7;
+  background-color: #d7d7d7;
   background-image: url(../assets/icons/Group\ 2609.png);
   position: relative;
   background-position: center;
   background-repeat: repeat;
+  padding-bottom: 60px;
 }
-.services::after{
+.services::after {
   content: "";
   position: absolute;
   top: 0;
@@ -19,8 +20,7 @@
   opacity: 0.5;
   z-index: -1;
 }
-/* .services .content {
-} */
+
 .services .paths {
   position: absolute;
   left: 200px;
@@ -41,7 +41,6 @@
 }
 .services .sort .h2-dropdown {
   position: relative;
-  /* padding-bottom: ; */
 }
 .services .h2-dropdown .dropdown-content {
   display: none;
@@ -96,10 +95,7 @@
 .services .content .goods .serv span img {
   width: 35px;
 }
-/* .services .content .goods .serv span svg {
-  width: 30px;
-  height: 35px;
-} */
+
 .services .content .goods .serv p {
   color: rgb(87, 87, 87);
   letter-spacing: 1px;
@@ -112,14 +108,14 @@
 .services .content .goods .active p {
   color: white;
 }
-@media (max-width: 676px) {
+/* @media (max-width: 676px) {
   .services .content .goods .serv span {
     display: none;
   }
   .services .content .goods .serv {
     height: 80px;
   }
-}
+} */
 .services .content .media {
   margin-top: 70px;
 }
@@ -137,12 +133,11 @@
   margin-top: 65px;
 }
 .services .content .media .cards .hero .card {
-  width: 123px;
-  height: 86px;
+  width: 120px;
+  height: 100px;
   border-radius: 15px;
   background-color: white;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
   box-shadow: 0 0 2px rgba(36, 35, 35, 0.3);
@@ -150,10 +145,9 @@
 
 .services .content .media .cards .hero .card span {
   margin-top: -50%;
-  /* position: absolute; */
   display: block;
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -161,8 +155,8 @@
   overflow: hidden;
 }
 .services .content .media .cards .hero .card span img {
-  width: 90px;
-  height: 90px;
+  width: 85px;
+  height: 85px;
   border-radius: 50%;
 }
 .services .content .media .cards .hero .card p {
@@ -173,9 +167,8 @@
   cursor: pointer;
   margin-top: 10px;
   font-size: 18px;
-
 }
-.services .content .media .cards .hero p>i{
+.services .content .media .cards .hero p > i {
   margin-left: 10px;
 }
 
@@ -200,7 +193,6 @@
   top: 50%;
   transform: translate(0, -50%);
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
   gap: 40px;
 }
@@ -235,9 +227,69 @@
   letter-spacing: 2px;
   margin-bottom: 55px;
 }
-footer {
-  /* margin-top: 30px; */
+
+@media (max-width: 896px) {
+  .services .sideCards {
+    display: none;
+  }
+  .services .content .goods .serv {
+    width: 70px;
+    height: 80px;
+  }
+  .services .content .goods .serv span {
+    width: 43px;
+    height: 43px;
+  }
+  .services .content .goods .serv span img {
+    width: 33px;
+    height: 33px;
+  }
+  .services .content .goods .serv p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px;
+  }
 }
+
+
+
+
+
+@media (max-width: 474px) {
+  .services .content .media .cards {
+    flex-direction: column;
+  }
+  .services .content .media .cards .hero .card {
+    width: 95px;
+    height: 80px;
+  }
+  .services .content .media .cards .hero .card span {
+    width: 90px;
+    height: 90px;
+  }
+  .services .content .media .cards .hero .card span img {
+    width: 75px;
+    height: 75px;
+  }
+  .services .content .media .cards .hero .card p {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1270px) {
   .services .paths {
     display: none;
