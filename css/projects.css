@@ -1,15 +1,15 @@
 .services {
   width: 100%;
   min-height: 125vh;
-  background-color: #d7d7d7;
+    background-color: #d7d7d7;
   background-image: url(../assets/icons/Group\ 2609.png);
   position: relative;
   background-position: center;
   background-repeat: repeat;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
-.services::after {
-  content: "";
+.services::after{
+   content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -21,12 +21,12 @@
 }
 /* .services .content {
 } */
-.services .paths {
+.services .paths{
   position: absolute;
   left: 200px;
   top: 10px;
 }
-.services .paths p {
+.services .paths p{
   font-size: 12px;
   margin-top: 20px;
 }
@@ -36,7 +36,6 @@
   align-items: center;
   padding-top: 40px;
   gap: 30px;
-  flex-wrap: wrap;
 }
 
 .services .content .goods .serv {
@@ -72,28 +71,22 @@
 .services .content .goods .active {
   background-color: var(--main-color);
 }
-.services .content .goods .active span {
+.services .content .goods .active span{
   background-color: white;
 }
 .services .content .goods .active p {
   color: white;
 }
-/* @media (max-width: 676px) {
-  .services .content .goods .serv span {
-    display: none;
-  }
-  .services .content .goods .serv {
-    height: 80px;
-  }
-} */
+
 .services .content .media {
-  margin-top: 70px;
+  margin-top:70px;
 }
 .services .content .media .cards {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 35px;
 }
 .services .content .media .cards .hero {
   display: flex;
@@ -108,10 +101,9 @@
   border-radius: 15px;
   background-color: white;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 0 2px rgba(36, 35, 35, 0.3);
+box-shadow: 0 0 2px rgba(36, 35, 35,.3);
 }
 
 .services .content .media .cards .hero .card span {
@@ -133,105 +125,105 @@
 .services .content .media .cards .hero .card1 p {
   color: #04be8b;
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 19PX;
 }
 .services .content .media .cards .hero .card2 span {
-  background-color: #c3482f;
+  background-color: #C3482F;
 }
 .services .content .media .cards .hero .card2 p {
-  color: #c3482f;
+  color: #C3482F;
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 19PX;
   text-align: center;
 }
 .services .content .media .cards .hero .card3 span {
-  background-color: #588f80;
+  background-color: #588F80;
 }
 .services .content .media .cards .hero .card3 p {
-  color: #588f80;
+  color: #588F80;
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 19PX;
   text-align: center;
 }
 .services .content .media .cards .hero .card4 span {
-  background-color: #a5afb9;
+  background-color: #A5AFB9;
 }
 .services .content .media .cards .hero .card4 p {
-  color: #a5afb9;
+  color: #A5AFB9;
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 19PX;
   text-align: center;
 }
 .services .content .media .cards .hero .card5 span {
-  background-color: #e65bbd;
+  background-color: #E65BBD;
 }
 .services .content .media .cards .hero .card5 p {
-  color: #e65bbd;
+  color: #E65BBD;
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 19PX;
   text-align: center;
 }
 .services .content .media .cards .hero .card6 span {
-  background-color: #286f5c;
+  background-color:#286F5C;
 }
 .services .content .media .cards .hero .card6 p {
-  color: #286f5c;
+  color:#286F5C;
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 19PX;
   text-align: center;
 }
 .services .content .media .cards .hero .card7 span {
-  background-color: #ffbe00;
+  background-color:#FFBE00;
 }
 .services .content .media .cards .hero .card7 p {
-  color: #ffbe00;
+  color:#FFBE00;
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 19PX;
   text-align: center;
 }
 .services .content .media .cards .hero .card8 span {
-  background-color: #00b4ed;
+  background-color:#00B4ED;
 }
 .services .content .media .cards .hero .card8 p {
-  color: #00b4ed;
+  color:#00B4ED;
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 19PX;
   text-align: center;
 }
 .services .content .media .cards .hero .card9 span {
-  background-color: #f5593c;
+  background-color:#F5593C;
 }
 .services .content .media .cards .hero .card9 p {
-  color: #f5593c;
+  color:#F5593C;
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 19PX;
   text-align: center;
 }
 .services .content .media .cards .hero .card10 span {
-  background-color: #e63c58;
+  background-color:#E63C58;
 }
 .services .content .media .cards .hero .card10 p {
-  color: #e63c58;
+  color:#E63C58;
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 19PX;
   text-align: center;
 }
 .services .content .media .cards .hero .card11 span {
-  background-color: #cb9800;
+  background-color:#CB9800;
 }
 .services .content .media .cards .hero .card11 p {
-  color: #cb9800;
+  color:#CB9800;
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 19PX;
   text-align: center;
 }
 .services .content .media .cards .hero .card12 span {
-  background-color: #cb9800;
+  background-color:#CB9800;
 }
 .services .content .media .cards .hero .card12 p {
-  color: #cb9800;
+  color:#CB9800;
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 19PX;
   text-align: center;
 }
 /* side cards */
@@ -241,7 +233,6 @@
   top: 50%;
   transform: translate(0, -50%);
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
   gap: 40px;
 }
@@ -275,27 +266,25 @@
   letter-spacing: 2px;
   margin-bottom: 55px;
 }
-
-
-
-
-@media (max-width: 1270px) {
-  .services .paths {
+@media (max-width:1270px) {
+  .services .paths{
     display: none;
   }
+  
 }
-
-@media (max-width: 896px) {
-  .services .sideCards {
-    display: none;
-  }
+@media (max-width: 820px) {
+  .sm-container {
+    width: 95%;
+    margin: auto;
+}
+ 
   .services .content .goods .serv {
-    width: 70px;
-    height: 80px;
+    width: 71px;
+    height: 73px;
   }
   .services .content .goods .serv span {
-    width: 43px;
-    height: 43px;
+    width: 37px;
+    height: 28px;
   }
   .services .content .goods .serv span img {
     width: 33px;
@@ -306,10 +295,11 @@
     font-size: 12px;
     margin-top: 5px;
   }
-}
-
-@media (max-width: 487px) {
-  .services .content .goods .serv span {
+  .services .content .goods {
+  
+    gap:15px;
+  }
+  .services .sideCards {
     display: none;
   }
 }

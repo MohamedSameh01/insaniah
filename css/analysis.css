@@ -1,9 +1,4 @@
-/* body {
-  border: 1px solid green;
-}
-* {
-  border: 1px solid blue;
-} */
+
 
 .analysis {
   width: 100%;
@@ -12,14 +7,14 @@
   justify-content: space-around;
   align-items: center;
   background-color: transparent;
-    background-color: #d7d7d7;
+  background-color: #d7d7d7;
   background-image: url(../assets/icons/Group\ 2609.png);
   position: relative;
   background-position: center;
   background-repeat: repeat;
 }
-.analysis::after{
-   content: "";
+.analysis::after {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -52,7 +47,6 @@
 .analysis .rightSide {
   width: 55%;
   min-height: 600px;
-  /* background-color: rgb(255, 16, 16); */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -68,7 +62,6 @@
   border-radius: 2px;
   background-color: rgb(139, 143, 139);
   margin: 10px auto;
-  /* margin-top: 10px; */
 }
 .analysis div .left-left {
   width: 65%;
@@ -111,7 +104,6 @@
 }
 .analysis div .right-right {
   width: 30%;
-  /* background-color: white; */
   height: 80%;
   border-radius: 15px;
   display: flex;
@@ -168,6 +160,20 @@
   }
 }
 @media (max-width: 716px) {
+  .analysis {
+    width: 100%;
+  }
+  .analysis .leftSide,
+  .analysis .rightSide {
+    width: 90%;
+  }
+.analysis div .left-left div {
+  margin-top: 15px;
+}
+  .analysis div .left-left {
+    width: 100%;
+    margin-top: -20px;
+  }
   .analysis-container .analysis {
     flex-direction: column;
   }

@@ -27,8 +27,6 @@ body {
 }
 .success-payment .content {
   padding: 40px 0;
-  /* display: flex; */
-  /* justify-content: center; */
   margin: auto;
 }
 .success-payment .content p {
@@ -57,7 +55,6 @@ body {
   height: 100%;
   width: 15%;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   text-align: center;
   padding: 5px 5px;
@@ -83,7 +80,6 @@ body {
 .success-payment .card .content span {
   width: 80px;
   height: 80px;
-  /* padding: 20px; */
   border: 1.5px solid var(--main-color);
   border-radius: 50%;
   text-align: center;
@@ -141,11 +137,77 @@ body {
   bottom: 0;
   height: 20px;
   background-color: var(--main-color);
-  /* padding-top: 30px; */
   margin-top: 40px;
 }
 @media (max-width: 805px) {
+  .sm-container {
+    width: 95%;
+    margin: auto;
+  }
+  .success-payment .content .card {
+    width: 95%;
+  }
+  .success-payment .content #path {
+    display: none;
+  }
+  .success-payment .card .header {
+    height: 40px;
+  }
   .success-payment .card .header .header-left {
     font-size: 12px;
+    width: 60px;
+  }
+  .success-payment .card .header span p {
+    font-size: 15px;
+  }
+  .success-payment .card .content span {
+    width: 60px;
+    height: 60px;
+  }
+  .success-payment .card .content span i {
+    font-size: 35px;
+  }
+  .success-payment .card .content p {
+    font-size: 25px;
+  }
+  .success-payment .card .underline {
+    top: 48%;
+  }
+  .success-payment .card .thanks {
+    font-size: 18px;
+  }
+  .success-payment .card button {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 329px) {
+  .success-payment .card .header .header-left {
+    font-size: 12px;
+    width: 60px;
+  }
+
+  .success-payment .card .header span p {
+    font-size: 12px;
+  }
+  .success-payment .card .content span {
+    width: 40px;
+    height: 40px;
+  }
+  .success-payment .card .content span i {
+    font-size: 20px;
+  }
+  .success-payment .card .content p {
+    font-size: 18px;
+  }
+  .success-payment .card .underline {
+    top: 48%;
+  }
+  .success-payment .card .thanks {
+    font-size: 14px;
+  }
+
+  .success-payment .card button {
+    font-size: 10px;
   }
 }

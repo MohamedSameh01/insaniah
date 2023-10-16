@@ -27,8 +27,6 @@
   justify-content: center;
   align-items: center;
   gap: 40px;
-  /* padding: ; */
-  /* flex-wrap: wrap; */
 }
 .portfolio .cards .hero {
   display: flex;
@@ -115,26 +113,8 @@
     min-height: 40vh;
   }
 
-  /* .portfolio .content .cards .hero .card {
-    width: 100px;
-    height: 100px;
-  }
-  .portfolio .content .cards .hero .card img {
-    width: 50px;
-  } */
-}
-/* @media (max-width: 1090px) {
-  .portfolio .content .cards {
-    flex-wrap: wrap;
-  }
-}
-
-
-@media (max-width: 993px) {
-  .portfolio .content .cards {
-    display: block;
-  }
-} */
+  
+} 
 @media (max-width: 810px) {
   .portfolio .cards {
     flex-wrap: wrap;
@@ -164,8 +144,4 @@
   }
 }
 
-/* @media (min-width:939px)and(max-width: 974px) {
-  .portfolio .content .cards{
-    display: block;
-  }
-} */
+

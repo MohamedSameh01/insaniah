@@ -3,14 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* teest */
-/* *{
-  border:1px solid #03ff8a;
-}
-body{
-  border: 1px solid red;
-} */
-/*  */
+
 :root {
   --main-color: #f6951f;
   --secondary-color: #e3ceb6;
@@ -62,7 +55,6 @@ a {
   text-decoration: none;
   color: white;
 }
-/* header */
 header {
   height: 40px;
   background-color: var(--main-color);
@@ -70,9 +62,6 @@ header {
   align-items: center;
   font-size: 15px;
 }
-/* header */
-/* start nav */
-
 .header-content {
   color: white;
   display: flex;
@@ -91,16 +80,39 @@ header {
   width: 20px;
   margin: 0 5px;
 }
-
+.header-content .languages {
+  position: relative;
+  
+}
+.header-content .languages .lang-dropdown{
+  position: absolute;
+  right: 20px;
+  top: 23px;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  display: none;
+}
+.header-content .languages .lang-dropdown a{
+  color: black;
+  padding: 7px 20px;
+  display: block;
+  
+}
+.header-content .languages .lang-dropdown a:hover{
+  background-color: var(--main-color);
+  color: white;
+}
+.header-content .languages:hover .lang-dropdown {
+  display: block;
+}
 .shoping-cart {
   padding: 0;
 }
-/*  nav */
 .searchbar {
   background-color: #b49a78;
 }
 .navbar {
-  /* background-color: white; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -224,10 +236,7 @@ header {
   top: -19px;
   left: 5px;
 }
-/* end nav */
-/* start header2 */
 .header2 {
-  /* width: 100%; */
   background-color: var(--main-color);
   height: 50px;
 }
@@ -279,13 +288,7 @@ header {
   }
 }
 
-/*  end header2 */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/* strat footer */
+
 
 footer {
   background-color: var(--main-color);
@@ -412,15 +415,12 @@ footer .footer-bottom div a {
     width: calc(100% / 1.5);
   }
 }
-/* end footer */
-/* media */
 @media (max-width: 440px) {
   .navbar {
     display: block;
   }
   .navbar img {
     margin-bottom: 10px;
-    /* width: 20px; */
   }
   .header2 .mainDropDowns .h2-dropdown {
     font-size: 10px;
@@ -438,39 +438,11 @@ footer .footer-bottom div a {
   footer .footer .downloads .card {
     border: 0;
   }
+}
   @media (max-width: 280px) {
      .header2 .mainDropDowns .h2-dropdown {
     font-size: 8px;
   }
-  /* goods */
-}
-@media (max-width: 576px) {
-  .services .content .goods {
-    gap: 20px;
-  }
-  .services .content .goods .serv {
-    width: 70px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-  }
-  .services .content .goods .serv p {
-    font-size: 12px;
-  }
-}
-@media (max-width: 280px) {
-  .services .content .goods {
-    gap: 10px;
-  }
-  .services .content .goods .serv {
-    width: 60px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-  }
-  .services .content .goods .serv p {
-    font-size: 10px;
-  }
 }
 
 
@@ -484,9 +456,4 @@ footer .footer-bottom div a {
 
 
 
-/* body{
-  border: 1px solid red;
-}
-*{
-  border: 1px solid blue;
-} */
+

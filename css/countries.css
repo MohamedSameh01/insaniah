@@ -1,6 +1,5 @@
 .services {
   width: 100%;
-  /* min-height: 135vh; */
   position: relative;
   background-color: #d7d7d7;
   background-image: url(../assets/icons/Group\ 2609.png);
@@ -108,14 +107,6 @@
 .services .content .goods .active p {
   color: white;
 }
-/* @media (max-width: 676px) {
-  .services .content .goods .serv span {
-    display: none;
-  }
-  .services .content .goods .serv {
-    height: 80px;
-  }
-} */
 .services .content .media {
   margin-top: 70px;
 }
@@ -186,7 +177,6 @@
   font-size: 18px;
   border-radius: 5px;
 }
-/* side cards */
 .services .sideCards {
   position: absolute;
   right: 40px;
@@ -249,45 +239,24 @@
     font-size: 12px;
     margin-top: 5px;
   }
+  .sm-container {
+    width: 95%;
+    margin: auto;
+}
+.services .content .goods {
+  
+  gap:15px;
+}
+.services .content .goods .serv {
+  width: 71px;
+  height: 73px;
+}
+.services .content .goods .serv span {
+  width: 37px;
+  height: 28px;
 }
 
-
-
-
-
-@media (max-width: 474px) {
-  .services .content .media .cards {
-    flex-direction: column;
-  }
-  .services .content .media .cards .hero .card {
-    width: 95px;
-    height: 80px;
-  }
-  .services .content .media .cards .hero .card span {
-    width: 90px;
-    height: 90px;
-  }
-  .services .content .media .cards .hero .card span img {
-    width: 75px;
-    height: 75px;
-  }
-  .services .content .media .cards .hero .card p {
-    font-size: 18px;
-    font-weight: 600;
-  }
-
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 1270px) {
