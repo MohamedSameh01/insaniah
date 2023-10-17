@@ -370,7 +370,7 @@ span.price sup {
 }
 .sideCards {
   position: absolute;
-  right: 0px;
+  right: 15px;
   top: 50%;
   transform: translate(0, -50%);
   display: flex;
