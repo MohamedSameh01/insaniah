@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -124,7 +125,7 @@
     </div>
     <!--  Strat Portfolio-->
     <div class="portfolio ">
-            <div class="cards sm-container">
+        <div class="cards sm-container wow bounceInUp" data-wow-duration=".7s" data-wow-delay="1s">
                 <a href="budget.html">
                     <div class="hero">
                         <div class="card card1">
@@ -160,7 +161,7 @@
 
         </div>
         <!-- the right side cards -->
-        <div class="sideCards">
+        <div class="sideCards wow bounceInUp" data-wow-duration=".7s" data-wow-delay="1s">
             <div class="sideCard">
                 <span>
                     <img src="./assets/icons/Shape 20.png" alt="">
@@ -232,6 +233,10 @@
 
         </div>
     </footer>
+        <script src="js/wow.js"></script>
+        <script>
+            new WOW().init();
+        </script>
 </body>
 
 </html>
