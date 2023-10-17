@@ -57,8 +57,23 @@
   text-align: center;
   padding: 5px 10px;
 }
+ .verify-payment .card .header a{
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+     padding-right: 5px;
+    align-items: baseline;
+    padding-top: 7px;
+    gap: 6px;
+  font-size: 20px;
+ }
+ .verify-payment .card .header a p{
+  font-size: 15px;
+ }
 
-.verify-payment .card .header span {
+
+/* .verify-payment .card .header span {
   display: flex;
   width: 20%;
   text-align: center;
@@ -71,7 +86,7 @@
   font-size: 20px;
   padding-top: 10px;
   margin-left: 5px;
-}
+} */
 
 .verify-payment .card h3 {
   color: var(--main-color);
@@ -228,11 +243,15 @@
   }
 }
 @media (max-width: 950px) {
+
   .verify-payment .sideCards {
     display: none;
   }
 }
 @media (max-width: 810px) {
+  .path{
+    display: none;
+  }
   .content .form .payCards {
     display: none;
   }
@@ -247,9 +266,7 @@
   }
 }
 @media (max-width: 787px) {
-  .verify-payment .content p {
-    display: none;
-  }
+
   .sm-container {
     width: 85%;
     margin: auto;

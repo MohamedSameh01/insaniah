@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -124,8 +125,8 @@
     <div class="profile">
         <div class="profile-container">
             <div class="profile-content xl-container">
-                <div class="profile-cards">
-                    <div class="success-payment">
+                <div class="profile-cards wow bounceInUp" data-wow-duration=".7s" data-wow-delay="1s">
+                    <div class="success-payment  >
                         <p class="path">Home > profile</pcla>
                             <div class="profile-cards-content">
                                 <div class="wishlist">
@@ -230,7 +231,7 @@
                             </div>
                     </div>
                 </div>
-                <div class="sidebar" id="sidebar">
+                <div class="sidebar wow bounceInUp" data-wow-duration=".7s" data-wow-delay="1s"  id="sidebar">
                  <div class="total">totla</div>
                  <div class="total-content">
                     <p class="price">price</p>
@@ -240,7 +241,7 @@
                  </div>
 
                 </div>
-                <div class="sideprofile-cards">
+                <div class="sideprofile-cards  wow slideInRight" data-wow-duration=".7s" data-wow-delay=".5s">
                     <div class="sideCard">
                         <span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="31.677" height="29.026"
@@ -327,7 +328,10 @@
 
         </div>
     </footer>
-
+        <script src="js/wow.js"></script>
+        <script>
+            new WOW().init();
+        </script>
 </body>
 
 </html>

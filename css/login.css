@@ -78,6 +78,10 @@
 .login-content .login-form .links a {
   color: var(--main-color);
   margin: 15px;
+  transition: .3s;
+}
+.login-content .login-form .links a:hover {
+  transform: scale(1.05);
 }
 @media (max-width: 821px) {
 .login-content {

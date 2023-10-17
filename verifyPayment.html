@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -126,18 +127,20 @@
     </div>
     <!-- start success Payement -->
     <div class="verify-payment">
-        <div class="content sm-container">
-            <p>Home > Projects</p>
+        <div class="content sm-container wow bounceInUp" data-wow-duration=".7s" data-wow-delay="1s">
+            <p class="path">Home > Projects</p>
             <div class="card">
 
                 <div class="header">
                     <div class="header-left">
                         ZAKAT BANQ
                     </div>
-                    <span>
-                        <i class="fa-solid fa-share-nodes"></i>
-                        <p>Share</p>
-                    </span>
+                    <a href="">
+
+                            <i class="fa-solid fa-share-nodes"></i>
+                            <p class="share">Share</p>
+
+                    </a>
                 </div>
                 <h3>welcome</h3>
                 <p class="p-pay">Payment Methods</p>
@@ -180,7 +183,7 @@
             </div>
 
         </div>
-        <div class="sideCards">
+        <div class="sideCards wow slideInRight" data-wow-duration=".7s" data-wow-delay=".5s">
             <div class="sideCard">
                 <span>
                     <img src="./assets/icons/Shape 20.png" alt="">
@@ -255,6 +258,11 @@
 
         </div>
     </footer>
+        <script src="js/wow.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
 </body>
 
 </html>

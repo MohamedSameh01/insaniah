@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/budget.css">
@@ -127,7 +128,7 @@
     <!-- start Services  -->
     <div class="services ">
         <div class="content sm-container ">
-            <div class="goods">
+            <div class="goods wow bounceInUp" data-wow-duration=".7s" data-wow-delay="1s">
                 <a href="projects.html">
                     <div class="serv ">
                         <span>
@@ -163,13 +164,13 @@
                     </div>
                 </a>
             </div>
-            <div class="budget sm-container">
+            <div class="budget sm-container wow bounceInUp" data-wow-duration=".7s" data-wow-delay="1s">
                 <p>Select Amount</p>
                 <div class="topSide">
-                    <div>1000 QR</div>
-                    <div class="active">2000 QR</div>
-                    <div>5000 QR</div>
-                    <div>1000 QR</div>
+                    <a href=""><div>1000 QR</div></a>
+                    <a href=""><div class="active">2000 QR</div></a>
+                    <a href=""><div>5000 QR</div></a>
+                    <a href=""><div>1000 QR</div></a>
                 </div>
                 <p class="otherAmount">Other Amount</p>
                 <div class="downSide">
@@ -178,7 +179,7 @@
             </div>
         </div>
 
-        <div class="sideCards">
+        <div class="sideCards wow slideInRight" data-wow-duration=".7s" data-wow-delay=".5s">
             <div class="sideCard">
                 <span>
                     <img src="./assets/icons/Shape 20.png" alt="">
@@ -254,6 +255,11 @@
 
           </div>
       </footer>
+          <script src="js/wow.js"></script>
+          <script>
+              new WOW().init();
+          </script>
+
 </body>
 
 </html>

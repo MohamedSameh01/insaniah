@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -125,13 +127,14 @@
     <!--start analysis  -->
     <div class="analysis-container">
         <div class="analysis container">
-            <div class="leftSide">
+            <div class="leftSide wow slideInLeft" data-wow-duration=".7s" data-wow-delay=".5s">
                 <div class="left-left">
                     <span class="dash"></span>
                     <p>Moroco Earthquick</p>
                     <div>100 QR</div>
                     <div>200 QR</div>
-                    <div class="active">300 QR</div>
+                    <!--! here you can use an active class for choosing an element  -->
+                    <div class="">300 QR</div>
                     <div>400 QR</div>
                     <div>500 QR</div>
                     or
@@ -166,13 +169,14 @@
                     </div>
                 </div>
             </div>
-            <div class="rightSide">
+            <div class="rightSide wow slideInRight" data-wow-duration=".7s" data-wow-delay=".5s">
                 <div class="left-left ">
                     <span class="dash"></span>
                     <p>Fast Donate</p>
                     <div>100 QR</div>
                     <div>200 QR</div>
-                    <div class="active">300 QR</div>
+                    <!--! here you can use an active class for choosing an element  -->
+                    <div class="">300 QR</div>
                     <div>400 QR</div>
                     <div>500 QR</div>
                     or
@@ -267,6 +271,11 @@
 
         </div>
     </footer>
+        <script src="js/wow.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
 </body>
 
 </html>

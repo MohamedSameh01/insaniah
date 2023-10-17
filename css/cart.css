@@ -471,6 +471,7 @@ span.price sup {
   font-size: 20px;
   align-items: baseline;
   text-transform: capitalize;
+  cursor: pointer;
 }
 .cart-icon i {
   color: white;
@@ -663,6 +664,10 @@ span.price sup {
   font-size: 24px;
   padding-left: 20px;
   text-transform: uppercase;
+  cursor: default;
+}
+.wishlist button:hover{
+  scale: 1;
 }
 .wishlist button sup {
   background-color: red;

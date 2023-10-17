@@ -41,6 +41,7 @@
 .services .sort .h2-dropdown {
   position: relative;
 }
+
 .services .h2-dropdown .dropdown-content {
   display: none;
   position: absolute;
@@ -110,12 +111,18 @@
 .services .content .media {
   margin-top: 70px;
 }
+.sm-container{
+  width: 80%;
+}
 .services .content .media .cards {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 40px;  
 }
+
+
 .services .content .media .cards .hero {
   display: flex;
   justify-content: space-between;
@@ -219,6 +226,9 @@
 }
 
 @media (max-width: 896px) {
+  /* .sm-container{
+    width: 75%;
+  } */
   .services .sideCards {
     display: none;
   }
@@ -231,8 +241,8 @@
     height: 43px;
   }
   .services .content .goods .serv span img {
-    width: 33px;
-    height: 33px;
+    width: 25px;
+    height: 25px;
   }
   .services .content .goods .serv p {
     font-weight: 400;
@@ -255,11 +265,17 @@
   width: 37px;
   height: 28px;
 }
+.services .content .media .cards {
+  gap: 0px;
+}
 
 }
 
 
 @media (max-width: 1270px) {
+   /* .sm-container{
+    width: 75%;
+  } */
   .services .paths {
     display: none;
   }

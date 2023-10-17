@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -123,7 +124,7 @@
     </div>
     <!-- start success Payement -->
         <div class="success-payment">
-            <div class="content sm-container">
+            <div class="content sm-container  wow bounceInUp" data-wow-duration=".7s" data-wow-delay=".5s">
                 <p id="path">Home > Projects</p>
                 <div class="card">
                    <div class="header">
@@ -208,6 +209,11 @@
 
         </div>
     </footer>
+        <script src="js/wow.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
 </body>
 
 </html>
