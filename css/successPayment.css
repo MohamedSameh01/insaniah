@@ -1,9 +1,4 @@
-body {
-  border: 1px solid red;
-}
-* {
-  border: 1px splid green;
-}
+
 .success-payment {
   height: 100vh;
   width: 100%;
