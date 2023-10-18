@@ -27,31 +27,68 @@
   position: relative;
 }
 .sidebar {
-  position: absolute;
-  left: -1000px;
+  /* position: absolute;
+  left: -1000px; */
   background-color: #f4f4f4;
-  margin-top: 154px;
+  margin-top: 82px;
   margin-bottom: 100px;
   width: 280px;
   padding: 20px;
-  height: 1031px;
+  height: auto;
   box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, 0.2);
     transition: left 0.5s
 }
-.toggleFunc{
+/* .toggleFunc{
   left: 0;
   position: relative;
 
-}
-.filter-group .filter-element {
+} */
+
+
+.filter-group .listOfToggle1{
   margin-bottom: 14px;
+  display: none;
+}
+/* .filter-group .listOfToggle2{
+  margin-bottom: 14px;
+  display: none;
+}
+.filter-group .listOfToggle3{
+  margin-bottom: 14px;
+  display: none;
+}
+.filter-group .listOfToggle4{
+  margin-bottom: 14px;
+  display: none;
+}
+.filter-group .listOfToggle5{
+  margin-bottom: 14px;
+  display: none;
+}
+.filter-group .listOfToggle6{
+  margin-bottom: 14px;
+  display: none;
+}
+.filter-group .listOfToggle7{
+  margin-bottom: 14px;
+  display: none;
+} */
+
+
+.showChoises{
+  display: block !important; 
 }
 
+
 .filter-group h3 {
+  cursor:pointer;
   background-color: #dcb485e0;
   padding: 7px;
   margin-bottom: 27px;
   box-shadow: 0px 1px 1px #c08181;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 h2,
 h3 {

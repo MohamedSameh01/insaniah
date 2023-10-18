@@ -125,82 +125,94 @@
     <div class="back-ground ">
         <div class="projects-container back-ground">
             <div class="projects-content">
-                <div class="sidebar-container">
+                <div class="sidebar-container  wow bounceInUp" data-wow-duration="3s" data-wow-delay="4s">
                     <div class="sidebar " id="sidebar">
                         <h2>Filter Projects</h2>
+
+
+
                         <div class="filter-group">
-                            <h3>Continents</h3>
-                            <div class="filter-element">
-                                <input type="checkbox" id="africa" name="africa">
-                                <label for="africa">Africa</label>
-
-                            </div>
-                            <div class="filter-element">
-                                <input type="checkbox" id="asia" name="asia">
-                                <label for="asia">Asia</label>
-
-                            </div>
-
-
-                        </div>
-                        <div class="filter-group">
-                            <h3>Countries</h3>
-                            <div class="filter-element">
-                                <input type="checkbox" id="egypt" name="egypt">
-                                <label for="egypt">Egypt</label>
-                            </div>
-                            <div class="filter-element">
-                                <input type="checkbox" id="china" name="china">
-                                <label for="china">China</label>
+                            <h3 id="toggle_1" class="toggleBtn">Continents <i class="fa-solid fa-angle-down"></i></h3>
+                            <div class="listOfToggle1" id="listOfToggle1">
+                                <div class="filter-element">
+                                    <input type="checkbox" id="africa" name="africa">
+                                    <label for="africa">Africa</label>
+                                </div>
+                                <div class="filter-element">
+                                    <input type="checkbox" id="asia" name="asia">
+                                    <label for="asia">Asia</label>
+                                </div>
                             </div>
                         </div>
-                        <div class="filter-group">
-                            <h3>Project Sub Category</h3>
-                            <div class="filter-element">
-                                <input type="checkbox" id="wheels" name="wheels">
-                                <label for="wheels">Mosques</label>
-                            </div>
-                            <div class="filter-element">
-                                <input type="checkbox" id="building" name="building">
-                                <label for="building">Normal Wheel</label>
-                            </div>
 
+
+
+                        <div class="filter-group">
+                            <h3 id="toggle_2" class="toggleBtn">Countries <i class="fa-solid fa-angle-down"></i></h3>
+                            <div class="listOfToggle1" id="listOfToggle2">
+                                <div class="filter-element">
+                                    <input type="checkbox" id="egypt" name="egypt">
+                                    <label for="egypt">Egypt</label>
+                                </div>
+                                <div class="filter-element">
+                                    <input type="checkbox" id="china" name="china">
+                                    <label for="china">China</label>
+                                </div>
+                            </div>
                         </div>
                         <div class="filter-group">
-                            <h3>Price</h3>
-                            <div class="filter-element">
-                                <span id="price-output">
-                                    <p>110.75 Qar </p>
-                                    <p> 120.57 Qar</p>
-                                </span>
-                                <input type="range" id="price-range" name="price-range" min="11075" max="12057"
-                                    step="1">
-
-                            </div>
-
-
-                        </div>
-                        <div class="filter-group">
-                            <h3>Project Type</h3>
-                            <div class="filter-element">
-                                <input type="checkbox" id="wheels" name="wheels">
-                                <label for="wheels">Separated</label>
-                            </div>
-                            <div class="filter-element">
-                                <input type="checkbox" id="building" name="building">
-                                <label for="building">Sharing</label>
+                            <h3 id="toggle_3" class="toggleBtn">Project Sub Category <i
+                                    class="fa-solid fa-angle-down"></i></h3>
+                            <div class="listOfToggle1" id="listOfToggle3">
+                                <div class="filter-element">
+                                    <input type="checkbox" id="wheels" name="wheels">
+                                    <label for="wheels">Mosques</label>
+                                </div>
+                                <div class="filter-element">
+                                    <input type="checkbox" id="building" name="building">
+                                    <label for="building">Normal Wheel</label>
+                                </div>
                             </div>
 
                         </div>
                         <div class="filter-group">
-                            <h3>Zakat Type</h3>
-                            <div class="filter-element">
-                                <input type="checkbox" id="wheels" name="wheels">
-                                <label for="wheels">Accept Zaka</label>
+                            <h3 id="toggle_4" class="toggleBtn">Price <i class="fa-solid fa-angle-down"></i></h3>
+                            <div class="listOfToggle1" id="listOfToggle4">
+                                <div class="filter-element">
+                                    <span id="price-output">
+                                        <p>110.75 Qar </p>
+                                        <p> 120.57 Qar</p>
+                                    </span>
+                                    <input type="range" id="price-range" name="price-range" min="11075" max="12057"
+                                        step="1">
+                                </div>
                             </div>
-                            <div class="filter-element">
-                                <input type="checkbox" id="building" name="building">
-                                <label for="building">Building</label>
+                        </div>
+                        <div class="filter-group">
+                            <h3 id="toggle_5" class="toggleBtn">Project Type <i class="fa-solid fa-angle-down"></i></h3>
+                            <div class="listOfToggle1" id="listOfToggle6">
+                                <div class="filter-element">
+                                    <input type="checkbox" id="wheels" name="wheels">
+                                    <label for="wheels">Separated</label>
+                                </div>
+                                <div class="filter-element">
+                                    <input type="checkbox" id="building" name="building">
+                                    <label for="building">Sharing</label>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="filter-group">
+                            <h3 id="toggle_6" class="toggleBtn">Zakat Type <i class="fa-solid fa-angle-down"></i></h3>
+                            <div class="listOfToggle1" id="listOfToggle7">
+                                <div class="filter-element">
+                                    <input type="checkbox" id="wheels" name="wheels">
+                                    <label for="wheels">Accept Zaka</label>
+                                </div>
+                                <div class="filter-element">
+                                    <input type="checkbox" id="building" name="building">
+                                    <label for="building">Building</label>
+                                </div>
                             </div>
 
                         </div>
@@ -210,13 +222,13 @@
                 <div class="cards">
                     <div class="success-payment">
                         <p class="path">Home > Projects</p>
-                        <div class="toggle-button-container">
+                        <!-- <div class="toggle-button-container">
                             <button id="toggle-button" class="toggle-button"><i
                                     class="fa-solid fa-sliders"></i></button>
-                        </div>
-                        <div class="cards-content wow bounceInUp" data-wow-duration=".7s" data-wow-delay="1s">
+                        </div> -->
+                        <div class="cards-content">
                             <!-- card 1 -->
-                            <div class="card card-1 " >
+                            <div class="card card-1  wow bounceInLeft" data-wow-duration="3s" data-wow-delay="1s">
                                 <div class="header">
                                     <p>Zakat Bank</p>
                                     <span>
@@ -263,7 +275,7 @@
                                 </div>
                             </div>
                             <!-- card 2 -->
-                            <div class="card card-2">
+                            <div class="card card-2  wow bounceInUp" data-wow-duration="3s" data-wow-delay="3s">
                                 <div class="header">
                                     <p>Zakat Bank</p>
                                     <span>
@@ -310,7 +322,7 @@
                                 </div>
                             </div>
                             <!-- card 3 -->
-                            <div class="card card-3">
+                            <div class="card card-3  wow bounceInRight" data-wow-duration="3s" data-wow-delay="2s">
                                 <div class="header">
                                     <p>Zakat Bank</p>
                                     <span>
@@ -357,7 +369,7 @@
                                 </div>
                             </div>
                             <!-- card 4 -->
-                            <div class="card card-4">
+                            <div class="card card-4  wow bounceInLeft" data-wow-duration="3s" data-wow-delay="1s">
                                 <div class="header">
                                     <p>Zakat Bank</p>
                                     <span>
@@ -404,7 +416,7 @@
                                 </div>
                             </div>
                             <!-- card 5 -->
-                            <div class="card card-5">
+                            <div class="card card-5  wow bounceInUp" data-wow-duration="3s" data-wow-delay="3s">
                                 <div class="header">
                                     <p>Zakat Bank</p>
                                     <span>
@@ -451,7 +463,7 @@
                                 </div>
                             </div>
                             <!-- card 6 -->
-                            <div class="card card-6">
+                            <div class="card card-6  wow bounceInRight" data-wow-duration="3s" data-wow-delay="2s">
                                 <div class="header">
                                     <p>Zakat Bank</p>
                                     <span>
@@ -582,11 +594,14 @@
         </div>
     </footer>
     <script>
-        const sidebar = document.getElementById("sidebar");
-        const toggle_button = document.getElementById("toggle-button");
-        toggle_button.addEventListener("click", () => {
-            sidebar.classList.toggle("toggleFunc");
-
+        document.querySelectorAll(".toggleBtn").forEach((el, index1) => {
+            el.addEventListener("click", () => {
+                document.querySelectorAll(".listOfToggle1").forEach((el, index2) => {
+                    if (index1 == index2) {
+                        el.classList.toggle("showChoises");
+                    }
+                })
+            })
         })
     </script>
     <script src="js/wow.js"></script>
