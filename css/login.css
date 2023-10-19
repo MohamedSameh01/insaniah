@@ -42,7 +42,8 @@
   position: absolute;
   right: 0;
   color: var(--main-color);
-  margin-top: 10;
+  margin-top: 6px;
+  display: block;
 }
 .login-content .login-form .buttons {
   display: flex;

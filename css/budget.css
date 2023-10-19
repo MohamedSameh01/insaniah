@@ -79,7 +79,7 @@
 }
 .services .sideCards .sideCard {
   width: 100px;
-  height: 273px;
+  height: 200px;
   border-radius: 25px;
   background-color: white;
   padding: 10px;
@@ -102,7 +102,7 @@
 .services .sideCards .sideCard p {
   rotate: -90deg;
   color: var(--main-color);
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 55px;

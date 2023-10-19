@@ -111,7 +111,7 @@
 .services .content .media {
   margin-top: 70px;
 }
-.sm-container{
+.sm-container {
   width: 80%;
 }
 .services .content .media .cards {
@@ -119,9 +119,8 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 40px;  
+  gap: 40px;
 }
-
 
 .services .content .media .cards .hero {
   display: flex;
@@ -195,7 +194,7 @@
 }
 .services .sideCards .sideCard {
   width: 100px;
-  height: 273px;
+  height: 200px;
   border-radius: 25px;
   background-color: white;
   padding: 10px;
@@ -219,7 +218,7 @@
 .services .sideCards .sideCard p {
   rotate: -90deg;
   color: var(--main-color);
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 55px;
@@ -252,28 +251,25 @@
   .sm-container {
     width: 95%;
     margin: auto;
+  }
+  .services .content .goods {
+    gap: 15px;
+  }
+  .services .content .goods .serv {
+    width: 71px;
+    height: 73px;
+  }
+  .services .content .goods .serv span {
+    width: 37px;
+    height: 28px;
+  }
+  .services .content .media .cards {
+    gap: 0px;
+  }
 }
-.services .content .goods {
-  
-  gap:15px;
-}
-.services .content .goods .serv {
-  width: 71px;
-  height: 73px;
-}
-.services .content .goods .serv span {
-  width: 37px;
-  height: 28px;
-}
-.services .content .media .cards {
-  gap: 0px;
-}
-
-}
-
 
 @media (max-width: 1270px) {
-   /* .sm-container{
+  /* .sm-container{
     width: 75%;
   } */
   .services .paths {

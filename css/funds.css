@@ -16,8 +16,7 @@
 .services {
   width: 100%;
   min-height: 125vh;
-     background-color: #d7d7d7;
-
+  background-color: #d7d7d7;
 
   background-image: url(../assets/icons/Group\ 2609.png);
   position: relative;
@@ -114,27 +113,26 @@
   .sm-container {
     width: 95%;
     margin: auto;
-}
-.services .content .goods {
-  
-  gap:15px;
-}
-.services .content .goods .serv {
-  width: 71px;
-  height: 73px;
-}
-.services .content .goods .serv span {
-  width: 37px;
-  height: 28px;
-}
- 
+  }
+  .services .content .goods {
+    gap: 15px;
+  }
+  .services .content .goods .serv {
+    width: 71px;
+    height: 73px;
+  }
+  .services .content .goods .serv span {
+    width: 37px;
+    height: 28px;
+  }
+
   .services .content .funds-content {
     display: block;
   }
   .services .content .funds-content .fund {
     display: block;
     height: 100%;
-padding-bottom: 21px;
+    padding-bottom: 21px;
     width: 100%;
   }
   .sm-container-funds {
@@ -144,7 +142,13 @@ padding-bottom: 21px;
   .services .sideCards {
     display: none;
   }
+  .services .sideCards {
+    display: none;
+  }
 }
+
+
+
 .services .content .media {
   margin-top: 70px;
 }
@@ -303,7 +307,7 @@ padding-bottom: 21px;
 }
 .services .sideCards .sideCard {
   width: 100px;
-  height: 273px;
+  height: 200px;
   border-radius: 25px;
   background-color: white;
   padding: 10px;
@@ -326,16 +330,12 @@ padding-bottom: 21px;
 .services .sideCards .sideCard p {
   rotate: -90deg;
   color: var(--main-color);
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 55px;
 }
-@media (max-width: 1270px) {
-  .services .paths {
-    display: none;
-  }
-}
+
 .funds-content {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -346,7 +346,7 @@ padding-bottom: 21px;
   box-shadow: 0px 0px 2px #af9090;
   display: grid;
   grid-template-columns: 40% 60%;
-  height: 168px;
+  /* height: 168px; */
   padding: 5px;
   border-radius: 10px;
   margin-bottom: 70px;
@@ -391,10 +391,12 @@ padding-bottom: 21px;
 }
 .fund-content {
   padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 @media (max-width: 820px) {
- .services .sideCards {
-    display: none;
-  }
+  
 }

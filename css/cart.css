@@ -49,66 +49,66 @@
   grid-template-columns: 67% 23% 10%;
 }
 /* start side bar */
-.profile-content .sidebar{
+.profile-content .sidebar {
   margin-bottom: 50px;
-  margin-top: 125px
+  margin-top: 125px;
 }
-.profile-content .sidebar .total-content{
-  margin-top: 55px;
+/* .profile-content .sidebar .total-content {
+  margin-top: 42px;
   padding-bottom: 30px;
   width: 100%;
   min-height: 250px;
   background-color: white;
-}
+} */
 .profile-content .sidebar .total {
-width: 95%;
-padding: 10px 30px;
-color: white;
-background-color: var(--main-color);
-border: 0;
-margin: auto;
-font-size: 24px;
+  width: 95%;
+  padding: 10px 30px;
+  color: white;
+  background-color: var(--main-color);
+  border: 0;
+  margin: auto;
+  font-size: 24px;
 }
 .profile-content .sidebar .total-content {
-width: 95%;
-margin: auto;
-background-color: white;
-min-height: 250px;
-margin-top: 64px;
-padding: 10%;
-text-align: center;
+  width: 95%;
+  margin: auto;
+  background-color: white;
+  min-height: 250px;
+  margin-top: 42px;
+  padding: 10%;
+  text-align: center;
 }
 .profile-content .sidebar .total-content .price {
-font-size: 30px;
-font-weight: 400;
-color: var(--dark-color);
-text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--dark-color);
+  text-align: center;
 }
 .profile-content .sidebar .total-content .underline {
-width: 70%;
-display: block;
-margin: auto;
-height: 1px;
-background-color: rgb(230, 230, 230);
-margin-top: 20px;
+  width: 70%;
+  display: block;
+  margin: auto;
+  height: 1px;
+  background-color: rgb(230, 230, 230);
+  margin-top: 20px;
 }
 .profile-content .sidebar .total-content .span-num {
-font-size: 30px;
-color: var(--dark-color);
-font-weight: 600;
+  font-size: 30px;
+  color: var(--dark-color);
+  font-weight: 600;
 }
 #purshase {
-display: block;
-width: 95%;
-margin: auto;
-margin-top: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
-color: white;
-background-color: var(--main-color);
-border: 0;
-padding: 5px;
+  display: block;
+  width: 95%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: var(--main-color);
+  border: 0;
+  padding: 5px;
 }
 .filter-group .filter-element {
   margin-bottom: 14px;
@@ -182,7 +182,6 @@ input[type="range"]::-webkit-slider-thumb:active {
   justify-content: space-between;
 }
 
-
 .success-payment {
   width: 100%;
 }
@@ -198,7 +197,7 @@ input[type="range"]::-webkit-slider-thumb:active {
 .success-payment .card {
   margin: auto;
   width: 80%;
-  margin-top: 55px;
+  margin-top: 30px;
   text-align: center;
   border-radius: 0;
 }
@@ -488,7 +487,7 @@ span.price sup {
 }
 .sideprofile-cards .sideCard {
   width: 100px;
-  height: 273px;
+  height: 200px;
   border-radius: 25px;
   background-color: white;
   padding: 10px;
@@ -510,7 +509,7 @@ span.price sup {
 .sideprofile-cards .sideCard p {
   rotate: -90deg;
   color: var(--main-color);
-  font-size: 25px;
+  font-size: 15px;
   font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 55px;
@@ -571,7 +570,7 @@ span.price sup {
 }
 .skill {
   display: flex;
-  padding: 20px;
+  padding: 5px;
   padding-left: 30px;
 }
 .one.skill {
@@ -581,12 +580,11 @@ span.price sup {
 .box {
   display: flex;
   align-items: center;
-  border: 1px solid black;
-  padding: 7px;
-  font-size: 20px;
+  border: 1px solid rgb(150, 150, 150);
+  font-size: 10px;
 }
 .skill h3 {
-  font-size: 30px;
+  font-size: 25px;
   color: #1c1003a8;
   text-transform: uppercase;
   margin-top: 10px;
@@ -594,12 +592,12 @@ span.price sup {
 }
 .box i {
   margin-left: 10px;
-  font-size: 25px;
+  font-size: 18px;
   color: #00000082;
 }
 .box h4 {
-  font-size: 18px;
-  padding: 7px;
+  font-size: 14px;
+  padding: 3px;
   margin-left: 10px;
   color: #0000008c;
   text-transform: capitalize;
@@ -666,7 +664,7 @@ span.price sup {
   text-transform: uppercase;
   cursor: default;
 }
-.wishlist button:hover{
+.wishlist button:hover {
   scale: 1;
 }
 .wishlist button sup {

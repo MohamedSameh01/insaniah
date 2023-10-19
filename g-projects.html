@@ -49,16 +49,20 @@
                 <button class="search-button" type="submit">Search</button>
             </div>
             <div id="ICONS" class="icons">
-                <div class="icon">
-                    <i class="far fa-heart"></i>
-                    <span class="badge">3</span>
-                    wishlist
-                </div>
-                <div class="icon">
-                    <i class="fas fa-shopping-cart"></i>
-                    <span class="badge">5</span>
-                    cart
-                </div>
+                <a href="wish-list.html">
+                    <div class="icon">
+                        <i class="far fa-heart"></i>
+                        <span class="badge">3</span>
+                        wishlist
+                    </div>
+                </a>
+                <a href="cart.html">
+                    <div class="icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge">5</span>
+                        cart
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -135,12 +139,16 @@
                             <h3 id="toggle_1" class="toggleBtn">Continents <i class="fa-solid fa-angle-down"></i></h3>
                             <div class="listOfToggle1" id="listOfToggle1">
                                 <div class="filter-element">
-                                    <input type="checkbox" id="africa" name="africa">
-                                    <label for="africa">Africa</label>
+                                    <label class="main">Africa
+                                        <input type="checkbox">
+                                        <span class="geekmark"></span>
+                                    </label>
                                 </div>
                                 <div class="filter-element">
-                                    <input type="checkbox" id="asia" name="asia">
-                                    <label for="asia">Asia</label>
+                                    <label class="main">Asia
+                                        <input type="checkbox">
+                                        <span class="geekmark"></span>
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -150,13 +158,15 @@
                         <div class="filter-group">
                             <h3 id="toggle_2" class="toggleBtn">Countries <i class="fa-solid fa-angle-down"></i></h3>
                             <div class="listOfToggle1" id="listOfToggle2">
+                                <label class="main">Egypt
+                                    <input type="checkbox">
+                                    <span class="geekmark"></span>
+                                </label>
                                 <div class="filter-element">
-                                    <input type="checkbox" id="egypt" name="egypt">
-                                    <label for="egypt">Egypt</label>
-                                </div>
-                                <div class="filter-element">
-                                    <input type="checkbox" id="china" name="china">
-                                    <label for="china">China</label>
+                                    <label class="main">China
+                                        <input type="checkbox">
+                                        <span class="geekmark"></span>
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -165,12 +175,16 @@
                                     class="fa-solid fa-angle-down"></i></h3>
                             <div class="listOfToggle1" id="listOfToggle3">
                                 <div class="filter-element">
-                                    <input type="checkbox" id="wheels" name="wheels">
-                                    <label for="wheels">Mosques</label>
+                                    <label class="main">Mosques
+                                        <input type="checkbox">
+                                        <span class="geekmark"></span>
+                                    </label>
                                 </div>
                                 <div class="filter-element">
-                                    <input type="checkbox" id="building" name="building">
-                                    <label for="building">Normal Wheel</label>
+                                    <label class="main">Normal Wheel
+                                        <input type="checkbox">
+                                        <span class="geekmark"></span>
+                                    </label>
                                 </div>
                             </div>
 
@@ -179,12 +193,42 @@
                             <h3 id="toggle_4" class="toggleBtn">Price <i class="fa-solid fa-angle-down"></i></h3>
                             <div class="listOfToggle1" id="listOfToggle4">
                                 <div class="filter-element">
-                                    <span id="price-output">
+                                    <!-- <span id="price-output">
                                         <p>110.75 Qar </p>
                                         <p> 120.57 Qar</p>
                                     </span>
                                     <input type="range" id="price-range" name="price-range" min="11075" max="12057"
-                                        step="1">
+                                        step="1"> -->
+
+
+                                    <!-- Start input Range  -->
+                                    <div class="range_container">
+                                        <div class="sliders_control">
+                                            <input id="fromSlider" type="range" value="10" min="0" max="100" />
+                                            <input id="toSlider" type="range" value="40" min="0" max="100" />
+                                        </div>
+                                        <div class="form_control">
+                                            <div class="form_control_container">
+                                                <input class="form_control_container__time__input" type="number"
+                                                    id="fromInput" value="10" min="0" max="100" />
+                                            </div>
+                                            <div class="form_control_container">
+                                                <input class="form_control_container__time__input" type="number"
+                                                    id="toInput" value="40" min="0" max="100" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end input Range  -->
+
+
+
+
+
+
+
+
+
+
                                 </div>
                             </div>
                         </div>
@@ -192,12 +236,16 @@
                             <h3 id="toggle_5" class="toggleBtn">Project Type <i class="fa-solid fa-angle-down"></i></h3>
                             <div class="listOfToggle1" id="listOfToggle6">
                                 <div class="filter-element">
-                                    <input type="checkbox" id="wheels" name="wheels">
-                                    <label for="wheels">Separated</label>
+                                    <label class="main">separated
+                                        <input type="checkbox">
+                                        <span class="geekmark"></span>
+                                    </label>
                                 </div>
                                 <div class="filter-element">
-                                    <input type="checkbox" id="building" name="building">
-                                    <label for="building">Sharing</label>
+                                    <label class="main">sharing
+                                        <input type="checkbox">
+                                        <span class="geekmark"></span>
+                                    </label>
                                 </div>
                             </div>
 
@@ -206,12 +254,16 @@
                             <h3 id="toggle_6" class="toggleBtn">Zakat Type <i class="fa-solid fa-angle-down"></i></h3>
                             <div class="listOfToggle1" id="listOfToggle7">
                                 <div class="filter-element">
-                                    <input type="checkbox" id="wheels" name="wheels">
-                                    <label for="wheels">Accept Zaka</label>
+                                    <label class="main">Accept Zakat
+                                        <input type="checkbox">
+                                        <span class="geekmark"></span>
+                                    </label>
                                 </div>
                                 <div class="filter-element">
-                                    <input type="checkbox" id="building" name="building">
-                                    <label for="building">Building</label>
+                                    <label class="main">building
+                                        <input type="checkbox">
+                                        <span class="geekmark"></span>
+                                    </label>
                                 </div>
                             </div>
 
@@ -259,7 +311,7 @@
                                     </div>
 
                                 </div>
-                                <div class="select">select the value</div>
+                                <input class="select" type="text" name="" id="" placeholder="select the value">
                                 <div class="project-buy">
                                     <div class="cart-icon">
                                         <i class="fa-solid fa-cart-shopping"></i>
@@ -306,7 +358,7 @@
                                     </div>
 
                                 </div>
-                                <div class="select">select the value</div>
+                                <input class="select" type="text" name="" id="" placeholder="select the value">
                                 <div class="project-buy">
                                     <div class="cart-icon">
                                         <i class="fa-solid fa-cart-shopping"></i>
@@ -353,7 +405,7 @@
                                     </div>
 
                                 </div>
-                                <div class="select">select the value</div>
+                                <input class="select" type="text" name="" id="" placeholder="select the value">
                                 <div class="project-buy">
                                     <div class="cart-icon">
                                         <i class="fa-solid fa-cart-shopping"></i>
@@ -400,7 +452,7 @@
                                     </div>
 
                                 </div>
-                                <div class="select">select the value</div>
+                                <input class="select" type="text" name="" id="" placeholder="select the value">
                                 <div class="project-buy">
                                     <div class="cart-icon">
                                         <i class="fa-solid fa-cart-shopping"></i>
@@ -447,7 +499,7 @@
                                     </div>
 
                                 </div>
-                                <div class="select">select the value</div>
+                                <input class="select" type="text" name="" id="" placeholder="select the value">
                                 <div class="project-buy">
                                     <div class="cart-icon">
                                         <i class="fa-solid fa-cart-shopping"></i>
@@ -494,7 +546,7 @@
                                     </div>
 
                                 </div>
-                                <div class="select">select the value</div>
+                                <input class="select" type="text" name="" id="" placeholder="select the value">
                                 <div class="project-buy">
                                     <div class="cart-icon">
                                         <i class="fa-solid fa-cart-shopping"></i>
@@ -594,6 +646,7 @@
         </div>
     </footer>
     <script>
+        // toggle in the sidebar
         document.querySelectorAll(".toggleBtn").forEach((el, index1) => {
             el.addEventListener("click", () => {
                 document.querySelectorAll(".listOfToggle1").forEach((el, index2) => {
@@ -603,11 +656,100 @@
                 })
             })
         })
+        // code for the range in the price input
+        function controlFromInput(fromSlider, fromInput, toInput, controlSlider) {
+            const [from, to] = getParsed(fromInput, toInput);
+            fillSlider(fromInput, toInput, '#C6C6C6', '#25daa5', controlSlider);
+            if (from > to) {
+                fromSlider.value = to;
+                fromInput.value = to;
+            } else {
+                fromSlider.value = from;
+            }
+        }
+
+        function controlToInput(toSlider, fromInput, toInput, controlSlider) {
+            const [from, to] = getParsed(fromInput, toInput);
+            fillSlider(fromInput, toInput, '#C6C6C6', '#25daa5', controlSlider);
+            setToggleAccessible(toInput);
+            if (from <= to) {
+                toSlider.value = to;
+                toInput.value = to;
+            } else {
+                toInput.value = from;
+            }
+        }
+
+        function
+        controlFromSlider(fromSlider, toSlider, fromInput) {
+            const [from, to] = getParsed(fromSlider, toSlider);
+            fillSlider(fromSlider, toSlider, '#C6C6C6', '#25daa5', toSlider);
+            if (from > to) {
+                fromSlider.value = to;
+                fromInput.value = to;
+            } else {
+                fromInput.value = from;
+            }
+        }
+
+        function controlToSlider(fromSlider, toSlider, toInput) {
+            const [from, to] = getParsed(fromSlider, toSlider);
+            fillSlider(fromSlider, toSlider, '#C6C6C6', '#25daa5', toSlider);
+            setToggleAccessible(toSlider);
+            if (from <= to) {
+                toSlider.value = to;
+                toInput.value = to;
+            } else {
+                toInput.value = from;
+                toSlider.value = from;
+            }
+        }
+
+        function getParsed(currentFrom, currentTo) {
+            const from = parseInt(currentFrom.value, 10);
+            const
+                to = parseInt(currentTo.value, 10);
+            return [from, to];
+        }
+
+        function fillSlider(from, to, sliderColor,
+            rangeColor, controlSlider) {
+            const rangeDistance = to.max - to.min;
+            const fromPosition = from.value - to.min;
+            const toPosition = to.value - to.min;
+            controlSlider.style.background = `linear-gradient( to right,
+                ${sliderColor} 0%, ${sliderColor} ${(fromPosition)/(rangeDistance)*100}%, ${rangeColor}
+                ${((fromPosition)/(rangeDistance))*100}%, ${rangeColor} ${(toPosition)/(rangeDistance)*100}%,
+                ${sliderColor} ${(toPosition)/(rangeDistance)*100}%, ${sliderColor} 100%)`;
+        }
+
+        function
+        setToggleAccessible(currentTarget) {
+            const toSlider = document.querySelector('#toSlider');
+            if (Number(currentTarget.value) <= 0) {
+                toSlider.style.zIndex = 2;
+            } else {
+                toSlider.style.zIndex = 0;
+            }
+        }
+        const fromSlider = document.querySelector('#fromSlider');
+        const
+            toSlider = document.querySelector('#toSlider');
+        const fromInput = document.querySelector('#fromInput');
+        const toInput = document.querySelector('#toInput');
+        fillSlider(fromSlider, toSlider, '#C6C6C6', '#25daa5', toSlider);
+        setToggleAccessible(toSlider);
+        fromSlider.oninput = () => controlFromSlider(fromSlider,
+            toSlider, fromInput);
+        toSlider.oninput = () => controlToSlider(fromSlider, toSlider, toInput);
+        fromInput.oninput = () => controlFromInput(fromSlider, fromInput, toInput, toSlider);
+        toInput.oninput = () => controlToInput(toSlider, fromInput, toInput, toSlider);
     </script>
     <script src="js/wow.js"></script>
     <script>
         new WOW().init();
     </script>
+
 </body>
 
 </html>
