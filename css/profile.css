@@ -149,7 +149,7 @@ input[type="range"]::-webkit-slider-thumb:active {
 .success-payment .card {
   margin: auto;
   width: 80%;
-  margin-top: 55px;
+  margin-top: 30px;
   text-align: center;
   border-radius: 0;
 }
@@ -431,6 +431,7 @@ span.price sup {
   font-size: 20px;
   align-items: baseline;
   text-transform: capitalize;
+  cursor: pointer;
 }
 .cart-icon i {
   color: white;
@@ -535,7 +536,7 @@ span.price sup {
 }
 .skill {
   display: flex;
-  padding: 20px;
+  padding: 5px;
   padding-left: 30px;
 }
 .one.skill {
@@ -545,12 +546,11 @@ span.price sup {
 .box {
   display: flex;
   align-items: center;
-  border: 1px solid black;
-  padding: 7px;
-  font-size: 20px;
+  border: 1px solid rgb(150, 150, 150);
+  font-size: 10px;
 }
 .skill h3 {
-  font-size: 30px;
+  font-size: 25px;
   color: #1c1003a8;
   text-transform: uppercase;
   margin-top: 10px;
@@ -558,12 +558,12 @@ span.price sup {
 }
 .box i {
   margin-left: 10px;
-  font-size: 25px;
+  font-size: 18px;
   color: #00000082;
 }
 .box h4 {
-  font-size: 18px;
-  padding: 7px;
+  font-size: 14px;
+  padding: 3px;
   margin-left: 10px;
   color: #0000008c;
   text-transform: capitalize;
@@ -610,7 +610,7 @@ span.price sup {
 .wishlist {
   margin: auto;
   width: 80%;
-  margin-bottom: 4px;
+  /* margin-bottom: 4px; */
 }
 .wishlist button {
   width: 100%;
@@ -628,6 +628,10 @@ span.price sup {
   font-size: 24px;
   padding-left: 20px;
   text-transform: uppercase;
+  cursor: default;
+}
+.wishlist button:hover{
+  scale: 1;
 }
 .wishlist button sup {
   background-color: red;
